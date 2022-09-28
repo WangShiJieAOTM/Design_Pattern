@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.19)
+project(DesignPattern)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(DesignPattern Single_Responsibility_Principle.h Open-Closed_Principle.h Liskov_Substitution_Principle.h Interface_Segregation_Principle.h Dependency_Inversion_Principle.h CreationalPattern/Factory_Method.h CreationalPattern/Abstract_Factory.h CreationalPattern/Builder.h CreationalPattern/Prototype.h CreationalPattern/Singleton.h)

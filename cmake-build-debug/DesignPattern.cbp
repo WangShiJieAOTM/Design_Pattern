@@ -110,6 +110,27 @@
 		<Unit filename="E:/DesignPattern/Single_Responsibility_Principle.h">
 			<Option target="DesignPattern"/>
 		</Unit>
+		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Adapter.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Bridge.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Composite.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Decorator.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Facade.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Flyweight.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Proxy.h">
+			<Option target="DesignPattern"/>
+		</Unit>
 		<Unit filename="E:/DesignPattern/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -80,6 +80,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/DesignPattern/BehavioralPattern/Chain_of_Responsibility.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="E:/DesignPattern/BehavioralPattern/Command.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="E:/DesignPattern/BehavioralPattern/Iterator.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="E:/DesignPattern/BehavioralPattern/Mediator.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="E:/DesignPattern/BehavioralPattern/Memento.h">
+			<Option target="DesignPattern"/>
+		</Unit>
 		<Unit filename="E:/DesignPattern/CreationalPattern/Abstract_Factory.h">
 			<Option target="DesignPattern"/>
 		</Unit>
@@ -110,25 +125,25 @@
 		<Unit filename="E:/DesignPattern/Single_Responsibility_Principle.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Adapter.h">
+		<Unit filename="E:/DesignPattern/StructuralPatterns/Adapter.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Bridge.h">
+		<Unit filename="E:/DesignPattern/StructuralPatterns/Bridge.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Composite.h">
+		<Unit filename="E:/DesignPattern/StructuralPatterns/Composite.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Decorator.h">
+		<Unit filename="E:/DesignPattern/StructuralPatterns/Decorator.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Facade.h">
+		<Unit filename="E:/DesignPattern/StructuralPatterns/Facade.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Flyweight.h">
+		<Unit filename="E:/DesignPattern/StructuralPatterns/Flyweight.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralDesignPatterns/Proxy.h">
+		<Unit filename="E:/DesignPattern/StructuralPatterns/Proxy.h">
 			<Option target="DesignPattern"/>
 		</Unit>
 		<Unit filename="E:/DesignPattern/CMakeLists.txt">

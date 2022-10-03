@@ -100,7 +100,7 @@
       <workItem from="1664778486064" duration="12313000" />
       <workItem from="1664797820888" duration="1498000" />
       <workItem from="1664799511376" duration="33000" />
-      <workItem from="1664799558544" duration="1000" />
+      <workItem from="1664799558544" duration="427000" />
     </task>
     <task id="LOCAL-00001" summary="构建模式部分完成">
       <created>1664349533553</created>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664452874301</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完成">
+      <created>1664799585203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664799585203</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +166,8 @@
     <MESSAGE value="构建模式部分完成" />
     <MESSAGE value="结构模式部分完成" />
     <MESSAGE value="暂存" />
-    <option name="LAST_COMMIT_MESSAGE" value="暂存" />
+    <MESSAGE value="完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

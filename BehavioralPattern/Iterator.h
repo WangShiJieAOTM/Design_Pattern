@@ -41,6 +41,7 @@ private:
 template<class T>
 class Container {
     friend class Iterator<T, Container>;
+
 public:
     void Add(T a) {
         m_data_.push_back(a);
@@ -51,7 +52,7 @@ public:
     }
 
 private:
-    std::vector<T> m_data_;
+    std::vector <T> m_data_;
 };
 
 class Data {

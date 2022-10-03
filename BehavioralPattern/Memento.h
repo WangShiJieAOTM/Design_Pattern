@@ -42,7 +42,7 @@ public:
     }
 };
 
-//发起者持有一些可能随时间改变的重要状态。它还定义了一种将状态保存在备忘录中的方法和另一种从中恢复状态的方法。
+//Originator持有一些可能随时间改变的重要状态。它还定义了一种将状态保存在备忘录中的方法和另一种从中恢复状态的方法。
 class Originator {
 private:
     std::string state_;
@@ -84,7 +84,6 @@ public:
     }
 };
 
-//看守者不依赖于 Concrete Memento 类。因此，它无法访问存储在备忘录中的发起者的状态。它通过基础 Memento 接口与所有纪念品一起工作。
 class Caretaker {
 private:
     std::vector<Memento *> mementos_;
@@ -95,7 +94,7 @@ public:
     }
 
     ~Caretaker() {
-        for (auto m : mementos_) delete m;
+        for (auto m: mementos_) delete m;
     }
 
     void Backup() {
@@ -119,7 +118,7 @@ public:
 
     void ShowHistory() const {
         std::cout << "Caretaker: Here's the list of mementos:\n";
-        for (Memento *memento : this->mementos_) {
+        for (Memento *memento: this->mementos_) {
             std::cout << memento->GetName() << "\n";
         }
     }

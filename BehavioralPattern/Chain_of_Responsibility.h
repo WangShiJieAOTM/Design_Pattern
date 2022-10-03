@@ -74,7 +74,7 @@ public:
 //客户端代码通常适合使用单个处理程序。在大多数情况下，它甚至不知道处理程序是链的一部分。
 void ClientCode(Handler &handler) {
     std::vector <std::string> food = {"Nut", "Banana", "Cup of coffee"};
-    for (const std::string &f : food) {
+    for (const std::string &f: food) {
         std::cout << "Client: Who wants a " << f << "?\n";
         const std::string result = handler.Handle(f);
         if (!result.empty()) {

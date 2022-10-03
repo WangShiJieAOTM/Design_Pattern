@@ -12,7 +12,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fd42b2e-59e9-4f15-9b0c-713c028a4d38" name="默认变更列表" comment="完成" />
+    <list default="true" id="5fd42b2e-59e9-4f15-9b0c-713c028a4d38" name="默认变更列表" comment="完成">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +32,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -74,6 +77,11 @@
         <option name="nim.task.build.to.cache" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -100,7 +108,8 @@
       <workItem from="1664778486064" duration="12313000" />
       <workItem from="1664797820888" duration="1498000" />
       <workItem from="1664799511376" duration="33000" />
-      <workItem from="1664799558544" duration="427000" />
+      <workItem from="1664799558544" duration="602000" />
+      <workItem from="1664800180334" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="构建模式部分完成">
       <created>1664349533553</created>
@@ -130,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664799585203</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完成">
+      <created>1664800008388</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664800008388</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

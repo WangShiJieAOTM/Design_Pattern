@@ -8,145 +8,162 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/DesignPattern/cmake-build-debug"/>
+				<Option working_dir="D:/NoteBook/DesignPattern/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DesignPattern">
-				<Option output="E:/DesignPattern/cmake-build-debug/DesignPattern.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/DesignPattern/cmake-build-debug"/>
+				<Option output="D:/NoteBook/DesignPattern/cmake-build-debug/DesignPattern.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/NoteBook/DesignPattern/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesignPattern"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesignPattern"/>
+					<CompileFile command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DesignPattern/fast">
-				<Option output="E:/DesignPattern/cmake-build-debug/DesignPattern.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/DesignPattern/cmake-build-debug"/>
+				<Option output="D:/NoteBook/DesignPattern/cmake-build-debug/DesignPattern.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/NoteBook/DesignPattern/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/IDE/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesignPattern/fast"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesignPattern/fast"/>
+					<CompileFile command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/DesignPattern/cmake-build-debug"/>
+				<Option working_dir="D:/NoteBook/DesignPattern/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/DesignPattern/cmake-build-debug"/>
+				<Option working_dir="D:/NoteBook/DesignPattern/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/IDE/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/NoteBook/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/DesignPattern/BehavioralPattern/Chain_of_Responsibility.h">
+		<Unit filename="D:/NoteBook/DesignPattern/BehavioralPattern/Chain_of_Responsibility.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/BehavioralPattern/Command.h">
+		<Unit filename="D:/NoteBook/DesignPattern/BehavioralPattern/Command.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/BehavioralPattern/Iterator.h">
+		<Unit filename="D:/NoteBook/DesignPattern/BehavioralPattern/Iterator.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/BehavioralPattern/Mediator.h">
+		<Unit filename="D:/NoteBook/DesignPattern/BehavioralPattern/Mediator.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/BehavioralPattern/Memento.h">
+		<Unit filename="D:/NoteBook/DesignPattern/BehavioralPattern/Memento.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/CreationalPattern/Abstract_Factory.h">
+		<Unit filename="D:/NoteBook/DesignPattern/BehavioralPattern/Observer.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/CreationalPattern/Builder.h">
+		<Unit filename="D:/NoteBook/DesignPattern/BehavioralPattern/State.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/CreationalPattern/Factory_Method.h">
+		<Unit filename="D:/NoteBook/DesignPattern/BehavioralPattern/Strategy.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/CreationalPattern/Prototype.h">
+		<Unit filename="D:/NoteBook/DesignPattern/BehavioralPattern/Template_Method.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/CreationalPattern/Singleton.h">
+		<Unit filename="D:/NoteBook/DesignPattern/BehavioralPattern/Visitor.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/Dependency_Inversion_Principle.h">
+		<Unit filename="D:/NoteBook/DesignPattern/CreationalPattern/Abstract_Factory.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/Interface_Segregation_Principle.h">
+		<Unit filename="D:/NoteBook/DesignPattern/CreationalPattern/Builder.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/Liskov_Substitution_Principle.h">
+		<Unit filename="D:/NoteBook/DesignPattern/CreationalPattern/Factory_Method.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/Open-Closed_Principle.h">
+		<Unit filename="D:/NoteBook/DesignPattern/CreationalPattern/Prototype.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/Single_Responsibility_Principle.h">
+		<Unit filename="D:/NoteBook/DesignPattern/CreationalPattern/Singleton.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralPatterns/Adapter.h">
+		<Unit filename="D:/NoteBook/DesignPattern/Dependency_Inversion_Principle.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralPatterns/Bridge.h">
+		<Unit filename="D:/NoteBook/DesignPattern/Interface_Segregation_Principle.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralPatterns/Composite.h">
+		<Unit filename="D:/NoteBook/DesignPattern/Liskov_Substitution_Principle.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralPatterns/Decorator.h">
+		<Unit filename="D:/NoteBook/DesignPattern/Open-Closed_Principle.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralPatterns/Facade.h">
+		<Unit filename="D:/NoteBook/DesignPattern/Single_Responsibility_Principle.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralPatterns/Flyweight.h">
+		<Unit filename="D:/NoteBook/DesignPattern/StructuralPatterns/Adapter.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/StructuralPatterns/Proxy.h">
+		<Unit filename="D:/NoteBook/DesignPattern/StructuralPatterns/Bridge.h">
 			<Option target="DesignPattern"/>
 		</Unit>
-		<Unit filename="E:/DesignPattern/CMakeLists.txt">
+		<Unit filename="D:/NoteBook/DesignPattern/StructuralPatterns/Composite.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="D:/NoteBook/DesignPattern/StructuralPatterns/Decorator.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="D:/NoteBook/DesignPattern/StructuralPatterns/Facade.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="D:/NoteBook/DesignPattern/StructuralPatterns/Flyweight.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="D:/NoteBook/DesignPattern/StructuralPatterns/Proxy.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="D:/NoteBook/DesignPattern/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
